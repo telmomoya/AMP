@@ -10,7 +10,7 @@ Particularly an AMP system was desirable to get a real time (deterministic) oper
 Imagine the best of each world: Bare-metal speed and deterministic operation (with dedicated core/s) and Linux providing connectivity, security and plenty of drivers for easy peripheral access. And Inter Process Comunication(IPC) is the bridge between those worlds.
 
 
-History
+##History
 
 Looking for a performance upgrade for my "ARM based 6510 ICE" I decided to use a Raspberry Pi bare metal app. I started reading excellent Brian's tutorials and making some tests. But SD card swaping between PC and RASPi did not suit me for a development process. Searching for a bootloader I found David's one and tested it with a homemade serial level adapter (using CH340 from a dead Arduino Nano board). That was a better development mechanism, but also tedious.
 
